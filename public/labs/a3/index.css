@@ -257,3 +257,9 @@ color: white;
   color: white;
 }
 
+.gradients-linear {
+  background: linear-gradient(yellow, red);
+    width: 200px;
+    height: 200px;
+ }
+ 
