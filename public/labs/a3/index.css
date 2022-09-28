@@ -259,7 +259,22 @@ color: white;
 
 .gradients-linear {
   background: linear-gradient(yellow, red);
-    width: 200px;
-    height: 200px;
- }
+  width: 200px;
+  height: 200px;
+}
+
+.gradients-radial {
+background: radial-gradient(yellow, green);
+width: 200px;
+height: 200px;
+}
+
+.gradients-positioned {
+background:
+  radial-gradient(
+  at top left, blue, red);
+width: 200px;
+height: 200px;
+color: white;
+}
  
