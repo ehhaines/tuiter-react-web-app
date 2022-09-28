@@ -441,3 +441,35 @@ to {
   background-color: red;
   color: white;
 }
+
+.media-queries {
+  background-color: gainsboro;
+
+}
+@media (max-width: 600px) {
+  .below-600 {
+    background-color: #ff7070;
+  }
+}
+
+@media (min-width: 601px) 
+  and (max-width: 1000px) {
+  .below-600 {
+    background-color: #ff7070;
+  }
+  .between-600-1000 {
+    background-color: #7070ff;
+  }
+}
+
+@media (min-width: 1001px) {
+  .below-600 {
+    background-color: #ff7070;
+  }
+  .between-600-1000 {
+    background-color: #7070ff;
+  }
+  .above-1000 {
+    background-color: darkolivegreen;
+  }
+}
