@@ -277,4 +277,81 @@ width: 200px;
 height: 200px;
 color: white;
 }
+
+.animation-keyframes {
+  position: relative;
+  top: 0px;
+  animation-duration: 7s;
+  animation-name: slidein;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+}
+
+@keyframes slidein {
+ from {
+   position: relative;
+   top: 0px;
+   font-size: 100%;
+   margin-left: 100%;
+   width: 200px;
+   height: 200px;
+   background-color: yellow;
+   color: black;
+ }
+ 50% {
+  position: relative;
+  top: -200px;
+  font-size: 300%;
+  margin-left: 25%;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  color: white;
+}
+
+to {
+  position: relative;
+  top: 0px;
+  font-size: 100%;
+  margin-left: 0%;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+}
+}
+
+.animation-keyframes-2 {
+  position: relative;
+  top: 0px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: myani;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: green;
+}
+
+@keyframes myani {
+  from {
+    position: relative;
+    transform: rotate(25deg);
+    background-color: black;
+  }
+  50% {
+    position: relative;
+    transform: rotate(0deg);
+    background-color: red;
+    width: 50px;
+  }
+  to {
+    position: relative;
+    transform: rotate(-25deg);
+    background-color: black;
+  }
+}
  
