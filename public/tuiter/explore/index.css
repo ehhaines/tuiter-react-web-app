@@ -1,63 +1,13 @@
 html {
   background-color: black;
 }
-
-form {
-  padding-top: 5px;
-  width: 80%;
-  float: left;
-}
-
-input {
-  width: 100%;
-  height: 25px;
-  border-radius: 25px;
-  color: white;
-  background-color: darkgray;
-  border: none;
-}
-
-.wd-indent {
-  padding-left: 16px;
-}
-
-.wd-gear-icon {
-  float: right;
-  padding-right: 12px;
-}
+/**
 
 .wd-top {
   border-style: solid;
   border-color: rgb(47, 51, 54);
   border-bottom-width: 3px;
   overflow: auto;
-}
-
-.wd-category {
-  color: rgb(110, 118, 125);
-  float: left;
-  font-size: 15px;
-  padding: 16px;
-}
-
-.wd-first {
-  color: rgb(29, 161, 242);
-  border-bottom-color: rgb(29, 161, 242);
-  border-bottom-style: solid;
-}
-
-.wd-topic {
-  color: rgb(110, 118, 125);
-  font-size: 13px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-.wd-num-tuits {
-  color: rgb(110, 118, 125);
-  font-size: 13px;
-  padding-top: 3px;
-  padding-top: 3px;
 }
 
 .wd-poster {
@@ -108,4 +58,146 @@ img {
 
 .wd-float-done {
   clear: both;
+}
+**/
+
+body {
+  padding-left: 16px;
+  font-family: sans-serif;
+}
+
+form {
+  padding-top: 5px;
+  width: 80%;
+  float: left;
+}
+
+input {
+  width: 100%;
+  height: 25px;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(86, 86, 86);
+  border: none;
+}
+
+.wd-indent {
+  padding-left: 20px;
+}
+
+.wd-gear-icon {
+  float: right;
+  padding-right: 12px;
+}
+
+.wd-segment {
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  border-bottom-width: 3px;
+  overflow: auto;
+}
+
+.suggestion-2 {
+  color: white;
+  border: solid rgb(47, 51, 54);
+  height: 106px;
+}
+
+.float-left {
+  float: left;
+}
+
+.text {
+  padding-right: 200px;
+}
+
+.image {
+  position: absolute;
+  right: 16px;
+  padding-top: 3px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.float-end {
+  clear: both;
+}
+
+.wd-category {
+  color: rgb(110, 118, 125);
+  float: left;
+  font-size: 15px;
+  padding: 16px;
+}
+
+.wd-first {
+  color: rgb(29, 161, 242);
+  border-bottom-color: rgb(29, 161, 242);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.wd-space-between-a-b {
+  height: 15px;
+  border: solid 1px rgb(47, 51, 54);
+  background-color: rgb(31, 30, 30);
+}
+
+.wd-suggested {
+  color: white;
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  overflow: hidden;
+}
+
+.wd-topic {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.wd-num-tuits {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.wd-author {
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  float: left;
+}
+
+.wd-date-posted {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  float: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+
+.wd-live {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  float: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.wd-no-top {
+  border-top: none;
+}
+
+.wd-no-bottom {
+  border-bottom: none;
+}
+
+.wd-spacer {
+  height: 10px;
 }
