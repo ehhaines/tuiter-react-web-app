@@ -234,3 +234,7 @@ color: white;
   background-color: red;
 }
 
+.rotate-image {
+  transform: rotate(-10deg);
+}
+
