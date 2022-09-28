@@ -85,11 +85,10 @@ input {
 }
 
 .wd-image {
-  position:absolute;
+  float: right;
   right: 16px;
   padding-top: 3px;
   padding-bottom: 3px;
-  z-index: 10;
 }
 
 img {
@@ -105,7 +104,8 @@ img {
 
 .wd-middle {
   overflow: hidden;
-  padding-bottom: 70px;
 }
 
-
+.wd-float-done {
+  clear: both;
+}
