@@ -1,65 +1,6 @@
 html {
   background-color: black;
 }
-/**
-
-.wd-top {
-  border-style: solid;
-  border-color: rgb(47, 51, 54);
-  border-bottom-width: 3px;
-  overflow: auto;
-}
-
-.wd-poster {
-  font-size: 13px;
-  padding-top: 3px;
-  float: left;
-}
-
-.wd-date {
-  color: rgb(110, 118, 125);
-  font-size: 13px;
-  float: left;
-  padding-top: 3px;
-  padding-left: 5px;
-}
-
-.wd-title-2 {
-  padding-top: 3px;
-}
-
-.wd-text {
-  float: left;
-  padding-right: 200px;
-  z-index: 9;
-}
-
-.wd-image {
-  float: right;
-  right: 16px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-img {
-  border-radius: 25px;
-}
-
-.wd-suggested {
-  color: white;
-  border-style: solid;
-  border-color: rgb(47, 51, 54);
-  overflow: hidden;
-}
-
-.wd-middle {
-  overflow: hidden;
-}
-
-.wd-float-done {
-  clear: both;
-}
-**/
 
 body {
   padding-left: 16px;
@@ -97,21 +38,21 @@ input {
   overflow: auto;
 }
 
-.suggestion-2 {
+.wd-suggestion-2 {
   color: white;
   border: solid rgb(47, 51, 54);
   height: 106px;
 }
 
-.float-left {
+.wd-float-left {
   float: left;
 }
 
-.text {
+.wd-text {
   padding-right: 200px;
 }
 
-.image {
+.wd-image {
   position: absolute;
   right: 16px;
   padding-top: 3px;
@@ -121,7 +62,7 @@ img {
   border-radius: 25px;
 }
 
-.float-end {
+.wd-float-end {
   clear: both;
 }
 
