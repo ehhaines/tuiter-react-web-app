@@ -1,3 +1,7 @@
+body {
+  min-width: 601px;
+}
+
 .wd-content {
   border: solid;
   border-color: rgb(47, 51, 54);
