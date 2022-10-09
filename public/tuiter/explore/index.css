@@ -1,13 +1,18 @@
-html {
+/* html {
   background-color: black;
+} */
+
+
+.wd-searchbar {
+  height: 40px;
 }
 
-body {
-  padding-left: 16px;
-  font-family: sans-serif;
+.wd-magnifying-glass {
+  bottom: 12px;
+  left: 17px;
 }
 
-form {
+/* form {
   padding-top: 5px;
   width: 80%;
   float: left;
@@ -58,11 +63,11 @@ input {
   padding-top: 3px;
 }
 
-img {
+/* img {
   border-radius: 25px;
-}
+} */
 
-.wd-float-end {
+/* .wd-float-end {
   clear: both;
 }
 
@@ -141,4 +146,4 @@ img {
 
 .wd-spacer {
   height: 10px;
-}
+} */ 

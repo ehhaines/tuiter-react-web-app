@@ -5,10 +5,139 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+      rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="wd-segment wd-no-bottom">
+
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-2">
+        <div class="list-group">
+          <a href="https://en.wikipedia.org/wiki/Dune_(novel)" class="list-group-item list-group-item-action">
+               Home</a>
+          <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" class="list-group-item list-group-item-action active">
+              Explore</a>
+          <a href="https://en.wikipedia.org/wiki/The_Forever_War" class="list-group-item list-group-item-action">
+              Notifications</a>
+          <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)" class="list-group-item list-group-item-action">
+              Messages</a>
+          <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action"">
+            Bookmarks</a>
+          <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action"">
+            Lists</a>
+          <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action"">
+            Profile</a>
+          <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action"">
+            More</a>
+        </div>
+        <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill">Tuit</button>
+      </div>
+
+      <div class="col-6">
+        <div class="row">
+          <div class="position-relative col-10">
+            <input class="form-control rounded-pill wd-searchbar ps-5" placeholder="Search Tuiter" />
+            <i class="fa-solid fa-magnifying-glass position-absolute wd-magnifying-glass"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-gear fa-2x mt-1 float-end" style="color: rgb(29 161 242)"></i>
+          </div>
+        </div>
+        <ul class="nav nav-tabs mt-1">
+          <li class="nav-item">
+              <a class="nav-link active" href="#">For you</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entertainment</a>
+        </li>
+        </ul>
+        <div class="position-relative">
+          <img src="../../images/sakura.jpg" class="w-100 mt-1 mb-1"/>
+          <h2 class="position-absolute bottom-0 left-1 text-white">Cherry Blossom Festival</h2>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-8">
+                <div class="text-secondary">Online</div>
+                <div class="fw-bolder">The Washington Post <span class="text-secondary fw-normal">- 2h</span></div>
+                <div class="fw-bolder">Dream Face Reveal Garners 20 Million Viewers</div>
+              </div>
+              <div class="col">
+                <img src="../../images/dream.jpg" class="float-end rounded" height=100px width=100px/>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-8">
+                <div class="text-secondary">Fairytails</div>
+                <div class="fw-bolder">The Far Far Away Times <span class="text-secondary fw-normal">- 1h</span></div>
+                <div class="fw-bolder">Lord Farquaad's Reaction to Being Compared to Dream</div>
+              </div>
+              <div class="col">
+                <img src="../../images/farquaad.jpg" class="float-end rounded" height=100px width=100px/>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-8">
+                <div class="text-secondary">Mars</div>
+                <div class="fw-bolder">NBC News <span class="text-secondary fw-normal">- 5hrs</span></div>
+                <div class="fw-bolder">Scientists Find Evidence of Ancient Flooding on Mars</div>
+              </div>
+              <div class="col">
+                <img src="../../images/mars.jpg" class="float-end rounded" height=100px width=100px/>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-8">
+                <div class="text-secondary">Grandmother</div>
+                <div class="fw-bolder">Who Cares News <span class="text-secondary fw-normal">- 6hrs</span></div>
+                <div class="fw-bolder">Local Grandmother Stubs Toe</div>
+              </div>
+              <div class="col">
+                <img src="../../images/grandma.jpg" class="float-end rounded" height=100px width=100px/>
+              </div>
+            </div>
+          </li>
+       </ul>
+      </div>
+
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item">
+            Who to follow
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-7"></div>
+              <div class="col"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="wd-segment wd-no-bottom">
     <form class="wd-indent">
       <input class="wd-searchbar" placeholder="   &#9906; Search Tuiter">
     </form>
@@ -72,6 +201,6 @@
     <div class="wd-topic wd-indent">Trending in United States</div>
     <div class="wd-title wd-indent">Wonder Bread</div>
     <div class="wd-num-tuits wd-indent">1,512 Tuits</div>
-  </div>
+  </div> -->
 </body>
 </html>
