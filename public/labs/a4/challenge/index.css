@@ -1,0 +1,47 @@
+html {
+  background-color: black;
+}
+
+.wd-tweet-button {
+  background-color: #1DA1F2;
+}
+
+.wd-searchbar {
+  height: 40px;
+}
+
+.wd-magnifying-glass {
+  bottom: 12px;
+  left: 45px;
+}
+
+.wd-follow-button {
+  color: black;
+  background-color: #F5F8FA;
+  font-weight: bold;
+}
+
+.wd-show-more {
+  color: #1DA1F2;
+}
+
+.wd-little-text {
+  font-size: 15px;
+}
+
+.wd-active {
+  border-bottom: solid #1DA1F2 3px;
+}
+
+.wd-main-image-txt {
+  bottom: 5px;
+  left: 5px;
+}
+
+.wd-trending {
+  font-size: 13px;
+}
+
+.wd-halle {
+  color: #1DA1F2;
+}
