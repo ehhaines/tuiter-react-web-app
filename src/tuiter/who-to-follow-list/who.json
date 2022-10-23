@@ -1,0 +1,21 @@
+[
+  {
+    "_id": 123,
+    "userName": "User",
+    "handle": "user",
+    "avatarIcon": "user.jpeg"
+  },
+  {
+    "_id": 234,
+    "userName": "Ada Lovelace",
+    "handle": "adalovelace",
+    "avatarIcon": "ada.jpg"
+  },
+  {
+    "_id": 345,
+    "userName": "Edgers Dijkstra",
+    "handle": "daddy_dijkstra",
+    "avatarIcon": "dijkstra.jpg"
+  }
+ ]
+ 
