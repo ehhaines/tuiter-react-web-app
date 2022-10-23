@@ -1,0 +1,10 @@
+[{ "_id": 123, "topic": "Space", "userName": "SpaceX",
+  "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+  "time": "2h",   "image": "mars.jpg" },
+{ "_id": 234, "topic": "Technology",   "userName": "JavaScript",
+  "title": "JavaScript is a language that runs in the browser! Everyone should learn it",
+  "time": "2h",   "image": "js.png" },
+{ "_id": 345, "topic": "Education",  "userName": "NEU",
+  "title": "Recent bomb threat proved fraudulent; on worker is facing charges after feigning report and injuries",
+  "time": "4d",   "image": "neu.jpg" }
+]
