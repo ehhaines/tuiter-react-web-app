@@ -18,9 +18,9 @@ const ProfileComponent = () => {
         <span className="text-muted">{UserData.numTuits} Tuits</span>
       </div>
       <div className="wd-evan">
-        <img src={`/images/${UserData.bannerPicture}`} className="w-100"/>
+        <img src={`/images/${UserData.bannerPicture}`} className="w-100" alt="User Banner"/>
         <div className="position-relative">
-          <img src={`/images/${UserData.profilePicture}`} className="position-absolute rounded-circle w-25 wd-profile-image ms-3 mb-3"/>
+          <img src={`/images/${UserData.profilePicture}`} className="position-absolute rounded-circle w-25 wd-profile-image ms-3 mb-3" alt="User Profile"/>
           <button className="float-end btn rounded-pill border mt-2 me-2" onClick={() => {nav(`/tuiter/edit-profile`)}}>Edit Profile</button>
         </div>
       </div>

@@ -65,9 +65,9 @@ const EditProfile = () => {
         <button className="float-end btn rounded-pill border col bg-dark text-light" onClick={updateProfileClickHandler}>Save</button>
       </div>
       <div className="wd-evan">
-        <img src={`/images/${UserData.bannerPicture}`} className="w-100"/>
+        <img src={`/images/${UserData.bannerPicture}`} className="w-100" alt="User banner"/>
         <div className="position-relative">
-          <img src={`/images/${UserData.profilePicture}`} className="position-absolute rounded-circle w-25 wd-profile-image ms-3 mb-3"/>
+          <img src={`/images/${UserData.profilePicture}`} className="position-absolute rounded-circle w-25 wd-profile-image ms-3 mb-3" alt="User profile"/>
         </div>
       </div>
       <div>
