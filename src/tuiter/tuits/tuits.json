@@ -9,7 +9,9 @@
     "numComments": "4.2k",
     "numRetweets": "3.5k",
     "numLikes": "23.5k",
-    "liked": true
+    "liked": true,
+    "title": "Thinking about the future and a space-faring civilization",
+    "image": "mars.jpg"
   },
   {
     "_id": 234,
@@ -21,6 +23,8 @@
     "numComments": "34",
     "numRetweets": "7",
     "numLikes": "312",
-    "liked": false
+    "liked": false,
+    "title": "Phony Bombing Incident and Northeastern University. The experts weigh in",
+    "image": "neu.jpg"
   }
 ]
