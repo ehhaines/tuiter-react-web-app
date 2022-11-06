@@ -1,0 +1,15 @@
+{
+  "firstName": "User", 
+  "lastName": "Userson", 
+  "handle": "@uuser",
+  "profilePicture": "user.jpeg",
+  "bannerPicture": "banner2.jpg",
+  "bio": "I'll start a sesame farm one day. And only then might I find the tranquility that comes with bliss.",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",	
+  "dateOfBirth": "12/25/1901",
+  "dateJoined": "4/2009",
+  "followingCount": 340,
+  "followersCount": 223,
+  "numTuits": 5555
+}

@@ -43,10 +43,9 @@ const NavigationSidebar = () => {
                     ${active === 'lists'?'active':''}`}>
        <FontAwesomeIcon icon={faList} /> Lists
      </a>
-     <a href="." className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
-       <FontAwesomeIcon icon={faUser} /> Profile
-     </a>
+     <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
+     <FontAwesomeIcon icon={faUser} /> Profile
+     </Link>
      <a href="." className={`list-group-item
                     ${active === 'more'?'active':''}`}>
       <FontAwesomeIcon icon={faEllipsis} />  More
