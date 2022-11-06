@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 123,
+    "username": "Otaku",
+    "handle": "otaku_boi",
+    "whenPosted": "23h",
+    "profilePicture": "../../images/user.jpeg",
+    "blurb": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
+    "numComments": "4.2k",
+    "numRetweets": "3.5k",
+    "numLikes": "23.5k",
+    "liked": true
+  },
+  {
+    "_id": 234,
+    "username": "Bob Ross",
+    "handle": "bobross",
+    "whenPosted": "2d",
+    "profilePicture": "../../images/bobross.jpg",
+    "blurb": "Can't believe someone would fake a bomb threat at Northeastern! I mean, seriously! The costs totally outweight the benefits, and any recognition from being the 'guy who reported the bomb' will quickly be replaced with recognition for being the 'guy who made a bomb threat'. Ridiculous!",
+    "numComments": "34",
+    "numRetweets": "7",
+    "numLikes": "312",
+    "liked": false
+  }
+]
