@@ -10,6 +10,10 @@ import { useSelector } from "react-redux";
 
 const ProfileComponent = () => {
   const UserData = useSelector(state => state.user)
+  /**
+   * I referenced this source to learn about how to redirect on onClick:
+   * https://stackoverflow.com/questions/50644976/react-button-onclick-redirect-page
+   */
   const nav = useNavigate()
   return(
     <div>
